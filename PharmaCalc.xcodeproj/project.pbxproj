@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B1BDC2C11D31DB7006DFE70 /* Calc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1BDC2B11D31DB7006DFE70 /* Calc.m */; };
+		1B273A4412EBA58200E55CCD /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B273A4312EBA58200E55CCD /* iTunesArtwork.png */; };
+		1B2A806612DE913B00C5E846 /* num4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A806512DE913B00C5E846 /* num4.png */; };
+		1B2A807912DEA07600C5E846 /* num0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A806B12DEA07600C5E846 /* num0.png */; };
+		1B2A807A12DEA07600C5E846 /* num1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A806C12DEA07600C5E846 /* num1.png */; };
+		1B2A807B12DEA07600C5E846 /* num2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A806D12DEA07600C5E846 /* num2.png */; };
+		1B2A807C12DEA07600C5E846 /* num3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A806E12DEA07600C5E846 /* num3.png */; };
+		1B2A807D12DEA07600C5E846 /* num5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A806F12DEA07600C5E846 /* num5.png */; };
+		1B2A807E12DEA07600C5E846 /* num6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A807012DEA07600C5E846 /* num6.png */; };
+		1B2A807F12DEA07600C5E846 /* num7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A807112DEA07600C5E846 /* num7.png */; };
+		1B2A808012DEA07600C5E846 /* num8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A807212DEA07600C5E846 /* num8.png */; };
+		1B2A808112DEA07600C5E846 /* num9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A807312DEA07600C5E846 /* num9.png */; };
+		1B2A808212DEA07600C5E846 /* numD.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A807412DEA07600C5E846 /* numD.png */; };
+		1B2A808312DEA07600C5E846 /* numDivid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A807512DEA07600C5E846 /* numDivid.png */; };
+		1B2A808412DEA07600C5E846 /* numMinus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A807612DEA07600C5E846 /* numMinus.png */; };
+		1B2A808512DEA07600C5E846 /* numPiriod.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A807712DEA07600C5E846 /* numPiriod.png */; };
+		1B2A808612DEA07600C5E846 /* numTimes.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A807812DEA07600C5E846 /* numTimes.png */; };
+		1B2A808B12DEC87C00C5E846 /* buttonEqual.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A808A12DEC87C00C5E846 /* buttonEqual.png */; };
+		1B2A809112DEE0B600C5E846 /* buttonAns.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A808E12DEE0B600C5E846 /* buttonAns.png */; };
+		1B2A809212DEE0B600C5E846 /* ButtonUnitCalc.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A808F12DEE0B600C5E846 /* ButtonUnitCalc.png */; };
+		1B2A809312DEE0B600C5E846 /* ButtonUnitSet.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A809012DEE0B600C5E846 /* ButtonUnitSet.png */; };
+		1B2A80B212DEEB8200C5E846 /* ButtonC.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A80B112DEEB8200C5E846 /* ButtonC.png */; };
+		1B2A80B412DEEB8E00C5E846 /* ButtonPlus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A80B312DEEB8E00C5E846 /* ButtonPlus.png */; };
+		1B2A80B712DEF4CF00C5E846 /* ButtonFunkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A80B612DEF4CF00C5E846 /* ButtonFunkey.png */; };
+		1B2A80BF12DEF66400C5E846 /* buttonSet.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A80BE12DEF66400C5E846 /* buttonSet.png */; };
+		1B57EA7F1246D0DE0029CDFD /* memo.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1B57EA7E1246D0DE0029CDFD /* memo.rtf */; };
+		1B878C1A12C2DD800091E441 /* setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B878C1912C2DD800091E441 /* setting.m */; };
+		1B9EE90D136AA58700A332E1 /* display_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B9EE90C136AA58700A332E1 /* display_back.png */; };
+		1BA2F1E412D7C903003F7FD7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA2F1E312D7C903003F7FD7 /* AudioToolbox.framework */; };
+		1BA2F1F812D7C925003F7FD7 /* b13.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1BA2F1F712D7C925003F7FD7 /* b13.caf */; };
+		1BD4C0BC12E39EE2001E7170 /* b10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1BD4C0BB12E39EE2001E7170 /* b10.caf */; };
+		1BD4C0FD12E64EE2001E7170 /* autumleaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BD4C0FC12E64EE2001E7170 /* autumleaf.png */; };
+		1BEC7FDF12E6F37A00376AA5 /* momiji.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC7FDE12E6F37A00376AA5 /* momiji.png */; };
+		1BEC7FE912E70C5E00376AA5 /* _icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC7FE512E70C5E00376AA5 /* _icon.png */; };
+		1BEC7FEA12E70C5E00376AA5 /* _icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC7FE612E70C5E00376AA5 /* _icon@2x.png */; };
+		1BFDD7A212CD62FD0069169F /* settingBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFDD7A112CD62FD0069169F /* settingBack.png */; };
+		1BFFC475134FE45D00058105 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFFC474134FE45D00058105 /* icon.png */; };
+		1BFFC477134FE46A00058105 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFFC476134FE46A00058105 /* icon@2x.png */; };
+		1BFFC479134FF9DF00058105 /* baseDesign.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFFC478134FF9DF00058105 /* baseDesign.png */; };
+		1BFFC47B134FFD6200058105 /* baseDesign_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFFC47A134FFD6200058105 /* baseDesign_2.png */; };
+		1BFFC47F1350025500058105 /* baseDesign_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFFC47E1350025500058105 /* baseDesign_3.png */; };
+		1BFFC481135005CD00058105 /* backDesign_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFFC480135005CD00058105 /* backDesign_2.png */; };
+		1D3623260D0F684500981E51 /* PharmaCalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PharmaCalcAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* PharmaCalcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* PharmaCalcViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* PharmaCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* PharmaCalcViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B1BDC2A11D31DB7006DFE70 /* Calc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calc.h; sourceTree = "<group>"; };
+		1B1BDC2B11D31DB7006DFE70 /* Calc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calc.m; sourceTree = "<group>"; };
+		1B273A4312EBA58200E55CCD /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = design/iTunesArtwork.png; sourceTree = "<group>"; };
+		1B2A806512DE913B00C5E846 /* num4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num4.png; path = design/num4.png; sourceTree = "<group>"; };
+		1B2A806B12DEA07600C5E846 /* num0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num0.png; path = design/num0.png; sourceTree = "<group>"; };
+		1B2A806C12DEA07600C5E846 /* num1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num1.png; path = design/num1.png; sourceTree = "<group>"; };
+		1B2A806D12DEA07600C5E846 /* num2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num2.png; path = design/num2.png; sourceTree = "<group>"; };
+		1B2A806E12DEA07600C5E846 /* num3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num3.png; path = design/num3.png; sourceTree = "<group>"; };
+		1B2A806F12DEA07600C5E846 /* num5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num5.png; path = design/num5.png; sourceTree = "<group>"; };
+		1B2A807012DEA07600C5E846 /* num6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num6.png; path = design/num6.png; sourceTree = "<group>"; };
+		1B2A807112DEA07600C5E846 /* num7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num7.png; path = design/num7.png; sourceTree = "<group>"; };
+		1B2A807212DEA07600C5E846 /* num8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num8.png; path = design/num8.png; sourceTree = "<group>"; };
+		1B2A807312DEA07600C5E846 /* num9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num9.png; path = design/num9.png; sourceTree = "<group>"; };
+		1B2A807412DEA07600C5E846 /* numD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = numD.png; path = design/numD.png; sourceTree = "<group>"; };
+		1B2A807512DEA07600C5E846 /* numDivid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = numDivid.png; path = design/numDivid.png; sourceTree = "<group>"; };
+		1B2A807612DEA07600C5E846 /* numMinus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = numMinus.png; path = design/numMinus.png; sourceTree = "<group>"; };
+		1B2A807712DEA07600C5E846 /* numPiriod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = numPiriod.png; path = design/numPiriod.png; sourceTree = "<group>"; };
+		1B2A807812DEA07600C5E846 /* numTimes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = numTimes.png; path = design/numTimes.png; sourceTree = "<group>"; };
+		1B2A808A12DEC87C00C5E846 /* buttonEqual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonEqual.png; path = design/buttonEqual.png; sourceTree = "<group>"; };
+		1B2A808E12DEE0B600C5E846 /* buttonAns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonAns.png; path = design/buttonAns.png; sourceTree = "<group>"; };
+		1B2A808F12DEE0B600C5E846 /* ButtonUnitCalc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonUnitCalc.png; path = design/ButtonUnitCalc.png; sourceTree = "<group>"; };
+		1B2A809012DEE0B600C5E846 /* ButtonUnitSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonUnitSet.png; path = design/ButtonUnitSet.png; sourceTree = "<group>"; };
+		1B2A80B112DEEB8200C5E846 /* ButtonC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonC.png; path = design/ButtonC.png; sourceTree = "<group>"; };
+		1B2A80B312DEEB8E00C5E846 /* ButtonPlus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonPlus.png; path = design/ButtonPlus.png; sourceTree = "<group>"; };
+		1B2A80B612DEF4CF00C5E846 /* ButtonFunkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonFunkey.png; path = design/ButtonFunkey.png; sourceTree = "<group>"; };
+		1B2A80BE12DEF66400C5E846 /* buttonSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonSet.png; path = design/buttonSet.png; sourceTree = "<group>"; };
+		1B57EA7E1246D0DE0029CDFD /* memo.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = memo.rtf; sourceTree = "<group>"; };
+		1B878C1812C2DD800091E441 /* setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setting.h; sourceTree = "<group>"; };
+		1B878C1912C2DD800091E441 /* setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = setting.m; sourceTree = "<group>"; };
+		1B878D6012C344650091E441 /* def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = def.h; sourceTree = "<group>"; };
+		1B9EE90C136AA58700A332E1 /* display_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = display_back.png; sourceTree = "<group>"; };
+		1BA2F1E312D7C903003F7FD7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1BA2F1F712D7C925003F7FD7 /* b13.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = b13.caf; sourceTree = "<group>"; };
+		1BD4C0BB12E39EE2001E7170 /* b10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = b10.caf; sourceTree = "<group>"; };
+		1BD4C0FC12E64EE2001E7170 /* autumleaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = autumleaf.png; path = design/autumleaf.png; sourceTree = "<group>"; };
+		1BEC7FDE12E6F37A00376AA5 /* momiji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = momiji.png; path = design/momiji.png; sourceTree = "<group>"; };
+		1BEC7FE512E70C5E00376AA5 /* _icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = _icon.png; path = design/_icon.png; sourceTree = "<group>"; };
+		1BEC7FE612E70C5E00376AA5 /* _icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "_icon@2x.png"; path = "design/_icon@2x.png"; sourceTree = "<group>"; };
+		1BFDD7A112CD62FD0069169F /* settingBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingBack.png; sourceTree = "<group>"; };
+		1BFFC474134FE45D00058105 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1BFFC476134FE46A00058105 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		1BFFC478134FF9DF00058105 /* baseDesign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baseDesign.png; path = design/baseDesign.png; sourceTree = "<group>"; };
+		1BFFC47A134FFD6200058105 /* baseDesign_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baseDesign_2.png; path = design/baseDesign_2.png; sourceTree = "<group>"; };
+		1BFFC47E1350025500058105 /* baseDesign_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baseDesign_3.png; path = design/baseDesign_3.png; sourceTree = "<group>"; };
+		1BFFC480135005CD00058105 /* backDesign_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backDesign_2.png; path = design/backDesign_2.png; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PharmaCalcAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PharmaCalcAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PharmaCalcAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PharmaCalcAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* PharmaCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PharmaCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* PharmaCalcViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PharmaCalcViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* PharmaCalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PharmaCalcViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* PharmaCalcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PharmaCalcViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* PharmaCalc_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PharmaCalc_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* PharmaCalc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PharmaCalc-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				1BA2F1E412D7C903003F7FD7 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B878D6012C344650091E441 /* def.h */,
+				1D3623240D0F684500981E51 /* PharmaCalcAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PharmaCalcAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* PharmaCalcViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* PharmaCalcViewController.m */,
+				1B1BDC2A11D31DB7006DFE70 /* Calc.h */,
+				1B1BDC2B11D31DB7006DFE70 /* Calc.m */,
+				1B878C1812C2DD800091E441 /* setting.h */,
+				1B878C1912C2DD800091E441 /* setting.m */,
+				1B57EA7E1246D0DE0029CDFD /* memo.rtf */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* PharmaCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B2A806712DE914400C5E846 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				1BD4C0BB12E39EE2001E7170 /* b10.caf */,
+				1BA2F1F712D7C925003F7FD7 /* b13.caf */,
+			);
+			name = sound;
+			sourceTree = "<group>";
+		};
+		1BFDD7A012CD62D60069169F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1B9EE90C136AA58700A332E1 /* display_back.png */,
+				1BFFC476134FE46A00058105 /* icon@2x.png */,
+				1BFFC474134FE45D00058105 /* icon.png */,
+				1BFFC480135005CD00058105 /* backDesign_2.png */,
+				1BFFC47E1350025500058105 /* baseDesign_3.png */,
+				1BFFC47A134FFD6200058105 /* baseDesign_2.png */,
+				1BFFC478134FF9DF00058105 /* baseDesign.png */,
+				1B273A4312EBA58200E55CCD /* iTunesArtwork.png */,
+				1BEC7FE512E70C5E00376AA5 /* _icon.png */,
+				1BEC7FE612E70C5E00376AA5 /* _icon@2x.png */,
+				1BEC7FDE12E6F37A00376AA5 /* momiji.png */,
+				1BD4C0FC12E64EE2001E7170 /* autumleaf.png */,
+				1B2A80BE12DEF66400C5E846 /* buttonSet.png */,
+				1B2A80B612DEF4CF00C5E846 /* ButtonFunkey.png */,
+				1B2A80B312DEEB8E00C5E846 /* ButtonPlus.png */,
+				1B2A80B112DEEB8200C5E846 /* ButtonC.png */,
+				1B2A808E12DEE0B600C5E846 /* buttonAns.png */,
+				1B2A808F12DEE0B600C5E846 /* ButtonUnitCalc.png */,
+				1B2A809012DEE0B600C5E846 /* ButtonUnitSet.png */,
+				1B2A808A12DEC87C00C5E846 /* buttonEqual.png */,
+				1B2A806B12DEA07600C5E846 /* num0.png */,
+				1B2A806C12DEA07600C5E846 /* num1.png */,
+				1B2A806D12DEA07600C5E846 /* num2.png */,
+				1B2A806E12DEA07600C5E846 /* num3.png */,
+				1B2A806512DE913B00C5E846 /* num4.png */,
+				1B2A806F12DEA07600C5E846 /* num5.png */,
+				1B2A807012DEA07600C5E846 /* num6.png */,
+				1B2A807112DEA07600C5E846 /* num7.png */,
+				1B2A807212DEA07600C5E846 /* num8.png */,
+				1B2A807312DEA07600C5E846 /* num9.png */,
+				1B2A807412DEA07600C5E846 /* numD.png */,
+				1B2A807512DEA07600C5E846 /* numDivid.png */,
+				1B2A807612DEA07600C5E846 /* numMinus.png */,
+				1B2A807712DEA07600C5E846 /* numPiriod.png */,
+				1B2A807812DEA07600C5E846 /* numTimes.png */,
+				1BFDD7A112CD62FD0069169F /* settingBack.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* PharmaCalc_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B2A806712DE914400C5E846 /* sound */,
+				2899E5210DE3E06400AC0155 /* PharmaCalcViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* PharmaCalc-Info.plist */,
+				1BFDD7A012CD62D60069169F /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BA2F1E312D7C903003F7FD7 /* AudioToolbox.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* PharmaCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PharmaCalc" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PharmaCalc;
+			productName = PharmaCalc;
+			productReference = 1D6058910D05DD3D006BFB54 /* PharmaCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PharmaCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* PharmaCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* PharmaCalcViewController.xib in Resources */,
+				1B57EA7F1246D0DE0029CDFD /* memo.rtf in Resources */,
+				1BFDD7A212CD62FD0069169F /* settingBack.png in Resources */,
+				1BA2F1F812D7C925003F7FD7 /* b13.caf in Resources */,
+				1B2A806612DE913B00C5E846 /* num4.png in Resources */,
+				1B2A807912DEA07600C5E846 /* num0.png in Resources */,
+				1B2A807A12DEA07600C5E846 /* num1.png in Resources */,
+				1B2A807B12DEA07600C5E846 /* num2.png in Resources */,
+				1B2A807C12DEA07600C5E846 /* num3.png in Resources */,
+				1B2A807D12DEA07600C5E846 /* num5.png in Resources */,
+				1B2A807E12DEA07600C5E846 /* num6.png in Resources */,
+				1B2A807F12DEA07600C5E846 /* num7.png in Resources */,
+				1B2A808012DEA07600C5E846 /* num8.png in Resources */,
+				1B2A808112DEA07600C5E846 /* num9.png in Resources */,
+				1B2A808212DEA07600C5E846 /* numD.png in Resources */,
+				1B2A808312DEA07600C5E846 /* numDivid.png in Resources */,
+				1B2A808412DEA07600C5E846 /* numMinus.png in Resources */,
+				1B2A808512DEA07600C5E846 /* numPiriod.png in Resources */,
+				1B2A808612DEA07600C5E846 /* numTimes.png in Resources */,
+				1B2A808B12DEC87C00C5E846 /* buttonEqual.png in Resources */,
+				1B2A809112DEE0B600C5E846 /* buttonAns.png in Resources */,
+				1B2A809212DEE0B600C5E846 /* ButtonUnitCalc.png in Resources */,
+				1B2A809312DEE0B600C5E846 /* ButtonUnitSet.png in Resources */,
+				1B2A80B212DEEB8200C5E846 /* ButtonC.png in Resources */,
+				1B2A80B412DEEB8E00C5E846 /* ButtonPlus.png in Resources */,
+				1B2A80B712DEF4CF00C5E846 /* ButtonFunkey.png in Resources */,
+				1B2A80BF12DEF66400C5E846 /* buttonSet.png in Resources */,
+				1BD4C0BC12E39EE2001E7170 /* b10.caf in Resources */,
+				1BD4C0FD12E64EE2001E7170 /* autumleaf.png in Resources */,
+				1BEC7FDF12E6F37A00376AA5 /* momiji.png in Resources */,
+				1BEC7FE912E70C5E00376AA5 /* _icon.png in Resources */,
+				1BEC7FEA12E70C5E00376AA5 /* _icon@2x.png in Resources */,
+				1B273A4412EBA58200E55CCD /* iTunesArtwork.png in Resources */,
+				1BFFC475134FE45D00058105 /* icon.png in Resources */,
+				1BFFC477134FE46A00058105 /* icon@2x.png in Resources */,
+				1BFFC479134FF9DF00058105 /* baseDesign.png in Resources */,
+				1BFFC47B134FFD6200058105 /* baseDesign_2.png in Resources */,
+				1BFFC47F1350025500058105 /* baseDesign_3.png in Resources */,
+				1BFFC481135005CD00058105 /* backDesign_2.png in Resources */,
+				1B9EE90D136AA58700A332E1 /* display_back.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PharmaCalcAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* PharmaCalcViewController.m in Sources */,
+				1B1BDC2C11D31DB7006DFE70 /* Calc.m in Sources */,
+				1B878C1A12C2DD800091E441 /* setting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B273A6012EBD44300E55CCD /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: kazuyuki shimizu";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: kazuyuki shimizu";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "D99E8FFA-1CB4-466C-BE40-AD4B3AEF5ED7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1CBD993F-0A75-4D8E-A565-EF8AD534E144";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		1B273A6112EBD44300E55CCD /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PharmaCalc_Prefix.pch;
+				INFOPLIST_FILE = "PharmaCalc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = FunKeyCalc;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PharmaCalc_Prefix.pch;
+				INFOPLIST_FILE = "PharmaCalc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = PharmaCalc;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PharmaCalc_Prefix.pch;
+				INFOPLIST_FILE = "PharmaCalc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = PharmaCalc;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: kazuyuki shimizu (P9YAZSQG7R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "8953E4C2-2EB1-4F42-B935-9283370D16F5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: kazuyuki shimizu (P9YAZSQG7R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "8953E4C2-2EB1-4F42-B935-9283370D16F5";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PharmaCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				1B273A6112EBD44300E55CCD /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PharmaCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				1B273A6012EBD44300E55CCD /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
